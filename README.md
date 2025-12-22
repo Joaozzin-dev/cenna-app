@@ -1,167 +1,184 @@
-🎬 Cenna — Movie & Series Social Network
+# 🎬 CennaVerso
 
 <p align="center">
-  <img src="./assets/images/iconlogo.png" width="160" alt="Cenna Logo" />
-</p><p align="center">
-  <img src="https://img.shields.io/badge/Expo-54-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo 54" />
-  <img src="https://img.shields.io/badge/React_Native-0.81-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native 0.81" />
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-NativeWind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="NativeWind" />
-</p><p align="center">
-  <strong>A ponte entre o cinema e conexões reais.</strong><br/>
-  <sub>The bridge between cinema and real connections.</sub>
-</p><p align="center">
-  <a href="#-sobre-o-projeto">🇧🇷 Português</a> •
-  <a href="#-about-the-project">🇺🇸 English</a> •
-  <a href="#-technical-highlights">🛠 Technical</a> •
-  <a href="#-setup">🚀 Setup</a>
+  <img src="./assets/images/iconlogo.png" width="200" alt="CennaVerso Logo" />
 </p>
----
-
-🇧🇷 Sobre o Projeto
-
-O Cenna não é apenas um rastreador de filmes — é uma rede social cinematográfica.
-O projeto combate a fadiga da escolha ao substituir algoritmos genéricos por curadoria humana colaborativa, promovendo interação social em torno de filmes e séries.
-
-✨ Diferenciais
-
-🎬 Curadoria Colaborativa
-Listas dinâmicas onde a comunidade adiciona e organiza conteúdos.
-
-🌐 Social-First
-Críticas em texto, reviews em vídeo e enquetes interativas.
-
-🌙 Experiência Fluida
-Interface premium com Glassmorphism, Blur e Haptics.
-
-⚙️ Arquitetura de Ponta
-Um dos primeiros apps brasileiros a utilizar React 19 e a Nova Arquitetura do React Native (Fabric / TurboModules).
-
-
-
----
-
-🇺🇸 About the Project
-
-Cenna is a collaborative social ecosystem for cinema enthusiasts.
-It eliminates choice fatigue by replacing generic recommendation algorithms with human-driven curation, social interaction, and thematic discovery.
-
-✨ Key Highlights
-
-🎥 Crowdsourced Curation
-Dynamic lists enriched by the community.
-
-💬 Full Social Suite
-Text reviews, video snippets, and interactive polls.
-
-🎨 Premium UX
-High-end interface featuring Blur effects and tactile feedback.
-
-🚀 Cutting-Edge Stack
-Built with React 19 and the New Architecture for maximum performance.
-
-
-
----
-
-🎥 Demonstração / Demo
 
 <p align="center">
-  <img 
-    src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueW94bnd6Z3R4bmZ4bmZ4bmZ4bmZ4bmZ4bmZ4bmZ4bmZ4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/PLACEHOLDER_GIF_1/giphy.gif" 
-    width="300" 
-    style="border-radius: 20px"
-  />
+  <strong>Rede social de cinema com feed estilo TikTok</strong><br/>
+  <sub>Curadorias colaborativas • Vídeos • Enquetes • Descoberta inteligente</sub>
 </p>
----
 
-🛠 Technical Highlights
-
-Este projeto foi concebido como um desafio de engenharia focado em performance nativa.
-
-⚙️ Nova Arquitetura
-newArchEnabled: true, utilizando o motor de renderização Fabric.
-
-🧵 Worklets & Multithreading
-Uso intensivo de react-native-worklets-core para processamento em threads secundárias, mantendo 60fps constantes.
-
-🔗 Integração Híbrida
-Backend distribuído entre Supabase (PostgreSQL, Auth) e Firebase (funcionalidades em tempo real).
-
-🧠 Type Safety & Smart Detection
-Detecção inteligente de metadados do TMDB, diferenciando dinamicamente Movies e TV Shows.
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/React_Native-0.81-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Expo-54-000020?style=for-the-badge&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/TMDB-01D277?style=for-the-badge&logo=themoviedatabase&logoColor=white" />
+</p>
 
 ---
 
-🚀 Setup
+## ✨ Features
 
-1️⃣ Requisitos
+<table>
+<tr>
+<td width="50%">
 
-Node.js 18+
+### 📱 Feed Social
+- **Scroll vertical** em tela cheia
+- **Vídeos** com tap to play
+- **Posts de texto** premium
+- **Enquetes** em tempo real
+- **Double tap** para curtir 🔥
 
-Expo CLI
+</td>
+<td width="50%">
 
-Chaves de API:
+### 🎬 Descoberta
+- **Curadorias colaborativas**
+- **Roleta Cenna** (obras em alta)
+- **Sistema de Bolts** (gamificação)
+- **Busca** TMDB integrada
+- **Comentários** e reações
 
-TMDB
+</td>
+</tr>
+</table>
 
-Supabase
+---
 
-Firebase
+## 🛠️ Tech Stack
+```javascript
+{
+  "frontend": "React 19 + React Native 0.81 (Nova Arquitetura)",
+  "runtime": "Expo 54 (Router, AV, Haptics, Blur)",
+  "backend": "Firebase (Firestore, Auth, Storage)",
+  "api": "TMDB API v3"
+}
+```
 
+**Otimizações:**
+- ⚡ Fabric + TurboModules
+- 🎯 FlatList otimizado (60fps)
+- 🧠 Controle exclusivo de vídeo
+- 🎨 Glassmorphism + Haptics
 
+---
 
-2️⃣ Instalação
+## 🚀 Quick Start
 
+### 1️⃣ Pré-requisitos
+
+- Node.js 18+
+- Expo CLI
+- [TMDB API Key](https://www.themoviedb.org/settings/api)
+- [Firebase Project](https://console.firebase.google.com)
+
+### 2️⃣ Instalação
+```bash
 # Clone o repositório
-git clone https://github.com/joaozzin-dev/bros.git
+git clone https://github.com/joaozzin-dev/cennaverso.git
+cd cennaverso
 
-# Instale as dependências
-# (Obrigatório o uso de legacy-peer-deps devido ao React 19)
+# Instale dependências (obrigatório --legacy-peer-deps)
 npm install --legacy-peer-deps
 
-3️⃣ Variáveis de Ambiente (.env)
+# Configure variáveis de ambiente
+cp .env.example .env
+```
 
-EXPO_PUBLIC_TMDB_API_KEY=sua_chave
-EXPO_PUBLIC_SUPABASE_URL=seu_url
-EXPO_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anon
+### 3️⃣ Configure `.env`
+```env
+EXPO_PUBLIC_TMDB_API_KEY=sua_chave_tmdb
 
+EXPO_PUBLIC_FIREBASE_API_KEY=sua_chave
+EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=seu-projeto.firebaseapp.com
+EXPO_PUBLIC_FIREBASE_PROJECT_ID=seu-projeto
+EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=seu-projeto.appspot.com
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=123456789
+EXPO_PUBLIC_FIREBASE_APP_ID=1:123456789:web:abcdef
+```
+
+### 4️⃣ Execute
+```bash
+npx expo start
+
+# Opções específicas
+npx expo start --ios      # iOS
+npx expo start --android  # Android
+npx expo start --web      # Web (experimental)
+```
+
+
+
+## 🎯 Roadmap
+
+| Feature | Status |
+|---------|--------|
+| ✅ Feed estilo TikTok | Concluído |
+| ✅ Curadorias colaborativas | Concluído |
+| ✅ Sistema de Bolts | Concluído |
+| 🚧 Notificações push | Em desenvolvimento |
+| 📋 Stories 24h | Planejado |
+| 📋 Live streaming | Planejado |
+| 📋 Sistema de badges | Planejado |
 
 ---
 
-🤝 Contribuição
+## 🤝 Contribuir
 
-1. Fork o projeto
+Contribuições são bem-vindas!
 
-
-2. Crie uma branch (git checkout -b feature/AmazingFeature)
-
-
-3. Commit (git commit -m 'Add AmazingFeature')
-
-
-4. Push (git push origin feature/AmazingFeature)
-
-
-5. Abra um Pull Request
-
-
-
+1. **Fork** o projeto
+2. Crie sua branch (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Add: MinhaFeature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um **Pull Request**
 
 ---
 
-📄 License
+## 📄 Licença
 
-Distribuído sob a licença MIT.
-Veja o arquivo LICENSE para mais detalhes.
+Distribuído sob a licença **MIT**. Veja [LICENSE](LICENSE) para mais informações.
 
+---
 
-
+## 🎥 Demo
 
 <p align="center">
-  <strong>João Pedro (@joaozzin-dev)</strong><br/>
-  <a href="https://linkedin.com/in/SEU_LINKEDIN">LinkedIn</a> •
-  <a href="mailto:seuemail@exemplo.com">Email</a>
+  <img src="https://via.placeholder.com/280x560/7209B7/FFFFFF?text=Feed+Vertical" width="280" />
+  <img src="https://via.placeholder.com/280x560/F72585/FFFFFF?text=Curadorias" width="280" />
+  <img src="https://via.placeholder.com/280x560/4361EE/FFFFFF?text=Enquetes" width="280" />
+</p>
+
+<p align="center">
+  <sub>📹 GIFs e vídeos de demonstração serão adicionados em breve</sub>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/joaozzin-dev.png" width="100" style="border-radius: 50%" /><br/>
+  <strong>João Pedro</strong><br/>
+  <sub>Full Stack Developer</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/joaozzin-dev">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/joaozzin-dev">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>⭐ Se este projeto te ajudou, considere dar uma estrela!</sub>
+</p>
+
+---
+
+<p align="center">
+  Feito com ❤️ e ☕ por <strong>@joaozzin-dev</strong>
 </p>
