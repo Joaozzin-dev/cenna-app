@@ -1,4 +1,3 @@
-
 🎬 Cenna — Movie & Series Social Network
 <p align="center">
 <img src="./assets/images/iconlogo.png" width="160" alt="Cenna Logo" />
@@ -39,41 +38,44 @@ Cenna is a collaborative social ecosystem for cinema enthusiasts. It eliminates 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJueW94bnd6Z3R4bmZ4bmZ4bmZ4bmZ4bmZ4bmZ4bmZ4bmZ4JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/PLACEHOLDER_GIF_1/giphy.gif" width="300" style="border-radius: 20px" />
 </p>
 🛠 Technical Highlights
-Este projeto foi um desafio de engenharia focado em performance nativa.
- * Nova Arquitetura: Implementação de newArchEnabled: true, utilizando o motor de renderização Fabric.
+Este projeto foi um desafio de engenharia focado em performance nativa e escalabilidade.
+ * Nova Arquitetura: Implementação de newArchEnabled: true, utilizando o motor de renderização Fabric para maior fluidez na UI.
  * Gerenciamento de Trabalho (Worklets): Uso intensivo de react-native-worklets-core para processamento em threads secundárias, garantindo 60fps constantes.
  * Integração Híbrida: Backend distribuído entre Supabase (PostgreSQL/Auth) e Firebase (Real-time features).
- * Type Safety: Detecção inteligente de metadados do TMDB para tratamento dinâmico de objetos Movie vs TV Show.
+ * Type Safety & Logic: Detecção inteligente de metadados da API TMDB para tratamento dinâmico de objetos Movie vs TV Show.
 🚀 Setup
 1. Requisitos
  * Node.js 18+
  * Expo CLI
  * Chaves de API (TMDB, Supabase, Firebase)
 2. Instalação
-# Clone
+# Clone o repositório
 git clone https://github.com/joaozzin-dev/bros.git
 
-# Instale (Obrigatório o uso de legacy-peer-deps devido ao React 19)
+# Entre na pasta
+cd bros
+
+# Instale as dependências 
+# (Obrigatório o uso de legacy-peer-deps devido à versão experimental do React 19)
 npm install --legacy-peer-deps
 
 3. Variáveis de Ambiente (.env)
-EXPO_PUBLIC_TMDB_API_KEY=sua_chave
-EXPO_PUBLIC_SUPABASE_URL=seu_url
-EXPO_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anon
+Crie um arquivo .env na raiz do projeto:
+EXPO_PUBLIC_TMDB_API_KEY=sua_chave_aqui
+EXPO_PUBLIC_SUPABASE_URL=seu_url_aqui
+EXPO_PUBLIC_SUPABASE_ANON_KEY=sua_chave_anon_aqui
 
 🤝 Contribuição
- * Fork o projeto
- * Crie uma Feature Branch (git checkout -b feature/AmazingFeature)
- * Commit suas mudanças (git commit -m 'Add AmazingFeature')
- * Push para a Branch (git push origin feature/AmazingFeature)
- * Abra um Pull Request
+Contribuições tornam a comunidade open source um lugar incrível para aprender e criar.
+ * Fork o projeto.
+ * Crie uma Feature Branch (git checkout -b feature/AmazingFeature).
+ * Commit suas mudanças (git commit -m 'Add AmazingFeature').
+ * Push para a Branch (git push origin feature/AmazingFeature).
+ * Abra um Pull Request.
 📄 License
-Distribuído sob a licença MIT. Veja LICENSE para mais detalhes.
+Distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 <p align="center">
-
-
 <b>João Pedro (@joaozzin-dev)</b>
 
 <a href="https://linkedin.com/in/SEU_LINKEDIN">LinkedIn</a> • <a href="mailto:seuemail@exemplo.com">Email</a>
 </p>
-
