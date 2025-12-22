@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>Rede social de cinema com feed estilo TikTok</strong><br/>
+  <strong>Rede social de cinema com feed</strong><br/>
   <sub>Curadorias colaborativas • Vídeos • Enquetes • Descoberta inteligente</sub>
 </p>
 
