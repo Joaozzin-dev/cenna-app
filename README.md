@@ -64,6 +64,14 @@
 - 🧠 Controle exclusivo de vídeo
 - 🎨 Glassmorphism + Haptics
 
+## 📥 Download Direto (Versão Atual)
+
+Clique no botão abaixo para baixar o instalador oficial:
+
+[![Download APK](https://img.shields.io/badge/BAIXAR-CENNAVERSO_APK-pink?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Joaozzin-dev/cenna-app/releases/download/v1.0.0/CennaVerso-v1.0.0.apk)
+
+> **Nota:** Ao clicar, o download do arquivo de **84.5 MB** começará imediatamente.
+
 ## 📄 Licença
 
 Distribuído sob a licença **MIT**. Veja [LICENSE](LICENSE) para mais informações.
