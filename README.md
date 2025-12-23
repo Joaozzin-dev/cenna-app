@@ -119,6 +119,6 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações
 
 [![Download APK](https://img.shields.io/badge/📥_BAIXAR_CENNAVERSO-GRÁTIS-FF0080?style=for-the-badge&labelColor=000000)](https://github.com/Joaozzin-dev/cenna-app/releases/download/v1.0.0/CennaVerso-v1.0.0.apk)
 
-<sub>Copyright © 2024 CennaVerso. Todos os direitos reservados.</sub>
+<sub>Copyright © 2025 CennaVerso. Todos os direitos reservados.</sub>
 
 </div>
